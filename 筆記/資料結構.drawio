@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2024-02-26T06:09:17.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="OwD-rPiJJ2NtN-x-T-n2" version="23.1.5" type="device">
+  <diagram name="第1頁" id="VkmMye-4HkoF6uYpiTrL">
+    <mxGraphModel dx="1434" dy="844" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-1" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;演算法與時間複雜度&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-2" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;遞廻演算法基礎&amp;nbsp;&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-3" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: &amp;quot;微軟正黑體 Light&amp;quot;; font-size: medium; text-align: start;&quot;&gt;堆疊與佇列&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-4" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;鏈結串列&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="397" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-5" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: &amp;quot;微軟正黑體 Light&amp;quot;; font-size: medium; text-align: start;&quot;&gt;陣列 (Array)&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="289" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-6" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;樹與二元樹&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="592" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-7" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;遞廻演算法基礎&amp;nbsp;&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-8" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;排序、搜尋與雑湊&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1024" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-9" value="&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;高等樹&amp;nbsp;&lt;/font&gt;&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="916" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-10" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;圖形&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="808" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAteb-0Pgebx8aQ6z6Mb-12" value="&lt;strong style=&quot;box-sizing: border-box; color: rgb(51, 51, 51); font-family: 微軟正黑體; font-size: medium; text-align: start;&quot;&gt;演算法&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="292" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
