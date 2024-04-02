@@ -1,13 +1,17 @@
-# nums=[1,2,3,4,5,6,7]
-# k=3
+def rotate(nums,k):    
+    nums_len=len(nums)
+    k=k%nums_len
+    nums[:]=nums[nums_len-k:nums_len]+nums[0:nums_len-k]
+    
+
 nums=[-1,-100,3,99]
 k=2
-nums_len=len(nums)
-k=k%nums_len
-tempk=nums[nums_len-k:nums_len]
-nums[:]=tempk+nums[0:nums_len-k]
+rotate(nums,k)
 print(nums)
 
+
+# nums=[1,2,3,4,5,6,7]
+# k=3
 
 # method2
 # if k>0:
