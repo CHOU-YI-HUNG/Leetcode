@@ -1,3 +1,51 @@
+
+
+def maxProfit(prices):            
+    i=len(prices)-2 #buy
+    max_price=prices[len(prices)-1]
+    max_Profit=0
+    while i>-1:
+        profit=max_price-prices[i]
+        max_price=max(max_price,prices[i])        
+        max_Profit=max(max_Profit,profit)        
+        i-=1
+    return max_Profit
+        
+
+
+prices=[7,1,5,3,6,4]
+print(maxProfit(prices))
+prices=[7,6,4,3,1]
+print(maxProfit(prices))
+
+prices=[1,4,2]
+print(maxProfit(prices))
+
+prices=[3,2,6,5,0,3]
+print(maxProfit(prices))
+
+prices=[1]
+print(maxProfit(prices))
+
+
+# def maxProfit(prices):        
+#     i=0
+#     j=1
+#     max_profit=0
+#     while j<len(prices):           
+#         currentprofit=prices[j]-prices[i]
+#         if currentprofit>0:
+#             max_profit=max(currentprofit,max_profit)
+#         else:
+#             i=j
+#         j+=1
+#     return max_profit
+
+
+
+
+
+
 # list=[1, 2, 3]
 
 
