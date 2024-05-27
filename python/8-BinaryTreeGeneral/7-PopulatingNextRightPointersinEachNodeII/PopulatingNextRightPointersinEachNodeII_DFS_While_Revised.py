@@ -26,29 +26,16 @@ def connect(root):
     """
     :type root: Node
     :rtype: Node
-    """
-    def Traversal(L,R):
-        if L==R: return None          
-        if L!=None and R!=None:
-            L.next=R
-            
-            Traversal(L.left,L.right)                        
-            if L.right!=None:
-                if  R.left!=None:
-                    Traversal(L.right,R.left)
-                elif R.right!=None:
-                    Traversal(L.right,R.right)
-            elif L.left!=None:
-                if  R.left!=None:
-                    Traversal(L.left,R.left)
-                elif R.right!=None:
-                    Traversal(L.left,R.right)
-            
-            Traversal(R.left,R.right)
-            
-            
+    """                                                                                                                                           
     if root==None: return None        
-    Traversal(root.left,root.right)                     
+    queue=[root]    
+    while queue:
+        n=len(queue)                
+        for i in range(n):
+            node=queue.pop(0)                    
+            node.next=queue[0] if i<(n-1) else None
+            if node.left!=None: queue.append(node.left)
+            if node.right!=None: queue.append(node.right)                                            
     return root
 
 def PrintOrder(root):
@@ -60,13 +47,11 @@ def PrintOrder(root):
     print("##")         
     PrintOrder(root.left)
 
-# root=BuildTree([1,2,3,4,5,None,7])
-root=BuildTree([3,9,20,None,None,15,7])
+root=BuildTree([1,2,3,4,5,None,7])
 root=connect(root)
 PrintOrder(root)
 
 # root=BuildTree([0,2,4,1,None,3,-1,5,1,None,6,None,8])
 # connect(root)
 # PrintOrder(root)
-
 
